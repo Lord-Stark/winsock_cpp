@@ -25,7 +25,7 @@ namespace WinSocket
 
     protected:
         inline bool SocketVaild(const SocketHolder &SockHD);
-        
+
     public:
         SocketBase(SocketHolder &sockHD, const char *IPAddr, unsigned short port);
 
@@ -34,6 +34,13 @@ namespace WinSocket
         inline bool SocketVaild();
 
         ~SocketBase();
+
+    private:
+        SocketBase(const SocketBase &) = delete;
+        SocketBase(SocketBase &&) = delete;
+
+        SocketBase &operator=(const SocketBase &) = delete;
+        SocketBase &operator=(SocketBase &&) = delete;
     };
 
     class ClientSocket: public SocketBase

@@ -13,7 +13,8 @@ namespace WinSocket
         WSAStartupSingleton(WORD version);
 
         ~WSAStartupSingleton();
-
+        
+    public:
         WSAStartupSingleton(const WSAStartupSingleton &) = delete;
         WSAStartupSingleton(WSAStartupSingleton &&) = delete;
 
