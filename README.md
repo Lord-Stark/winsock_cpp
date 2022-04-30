@@ -2,7 +2,7 @@
 
 A simple program written in `C++` to show the usage of `Windows Socket`.
 
-This project is based on ([`Lord-Stark/winsock_c: A simple program written in C to show the usage of Windows Socket.`](https://github.com/Lord-Stark/winsock_c)).
+This project is based on [`Lord-Stark/winsock_c: A simple program written in C to show the usage of Windows Socket.`](https://github.com/Lord-Stark/winsock_c).
 
 I wrapped the raw Windows socket with an object-oriented language ` (C++)`  to make it `robust` and more importantly `easy to use`.
 
